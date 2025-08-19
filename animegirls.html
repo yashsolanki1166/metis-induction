@@ -3,26 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Gallery</title>
-  <h1 style="text-align: center;">Welcome to this webapge consisting of anime characters.</h1>
 
-</head>
-<body>
 <style>
     body {
       display: flex;
+        flex-direction: column;
       justify-content: center;
       gap: 20px;
+
       overflow-x: auto;
       padding: 20px;
+        background-color: blanchedalmond;
     }
     img {
       width: 200px;
       height: auto;
 
     }
+    img:hover {
+      transform: scale(1.1);
+    }
+    h1{
+        text-align: center;
+        color: black;
+        font-family: "Californian FB", sans-serif;
+        font-size: 24px;
+    }
+    img{
+        border: 2px solid black;
+        align-self: center;
+        animation: animate 1s ease-in-out infinite alternate;
+    }
+
 
   </style>
-<img src="m1.jpg" alt="m1">
+</head>
+
+<body>
+  <h1 style="text-align: center;">Welcome to this webapge consisting of anime characters.</h1>
+<img src="m1.jpg" alt="m1" s>
 <img src="m2.jpg" alt="m2">
 <img src="m3.jpeg" alt="m3">
 <img src="m4.jpeg" alt="m4">
