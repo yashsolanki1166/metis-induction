@@ -2,47 +2,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <style>
         body {
             background-color: #00e0e0;
             color: #00e0e0;
         }
-           
-        
-        .marquee {
-      width: 100%;
-      overflow: hidden;
-      white-space: nowrap;
-    }
+        dialog{
+            background-color: #eeeeee;
+            color: #0083b0;
+            padding:1px;
+        }
+        iframe{
+            background-color: #eeeeee;
+            padding:30px;
+            border:2px solid black;
+        }
 
-    .marquee span {
-      display: inline-block;
-      padding-left: 100%;
-      animation: scroll 10s linear infinite;
-    }
-    @keyframes scroll {
-      0%   { transform: translateX(0%); }
-      100% { transform: translateX(-100%); }
-    }
+        embed{
+            background-color: #eeeeee;
+            padding:30px;
+            border:2px solid black;
+
+        }
 
     </style>
 
-            <!-- for example i have created made this webpage explaining my portfolio website made under summer seige , also all modern brow
-    sers nowadays dont support marque so i have addded the function of marquee using css.-->
+            <!-- for example i have created made this webpage explaining my portfolio website made under summer seige-->
             <meta charset="UTF-8">
             <title>Informative Webpage</title>
-          
+            <marquee behavior="scroll" direction="left">only visit if you want to see cute anime characters.</marquee>
         </head>
         <body>
-              <div class="marquee">
-            <span>only visit if you want to see cute anime characters.</span>
-             </div>
         <dialog open>
-            <p>By visiting this website you agree to see cute anime characters.</p>
+            <p>By visiting this website you agree to see cute anime characters hehe.</p>
         </dialog>
 
-        <iframe src= "animegirls.html" width="600" height="800" ></iframe>
-        <!-- time to add an anime song-->
+
+        <iframe src= "animegirls.html" width="400" height="400" style="display:block; margin: 20px auto; border:2px solid black;"></iframe>
+        <!-- now you can hear an anime song-->
+
         <embed src ="Jujutsu Kaisen Opening - KAIKAIKITAN_tv.mp3" type="audio/mpeg">you can hear this song, its quite nice.
 
 
@@ -53,7 +52,5 @@
 
 </body>
 </html>
-
-
 
 
